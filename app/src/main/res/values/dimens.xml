@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-->Customer Information Activity Text Field Size<!-->
+    <dimen name="customerFieldTextSize">15dp</dimen>
+
+    <!-->Customer Information Activity Header Text Size<!-->
+    <dimen name="customerHeadingTextSize">18dp</dimen>
+
+    <!-->Customer Information Activity dimensions<!-->
+    <dimen name="marginTopUserInputField">10dp</dimen>
+    <dimen name="marginStart">20dp</dimen>
+    <dimen name="marginEnd">20dp</dimen>
+    <dimen name="paddingField">10dp</dimen>
+    <dimen name="paddingHeader">5dp</dimen>
+</resources>

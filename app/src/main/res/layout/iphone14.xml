@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="1dp"
+    app:layout_editor_absoluteX="1dp"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SecondActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/iphone14name"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/iphone14"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="215dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iphone14name"
+        app:srcCompat="@drawable/iphone14" />
+
+    <TextView
+        android:id="@+id/deviceNameValue"
+        android:layout_width="131dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/iphone14Name"
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="131dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Color"
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deviceNameValue" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="327dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="131dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Storage"
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="223dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/radioButton128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="128GB"
+            android:textSize="14dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton256"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="256GB"
+            android:textSize="14dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton512"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="512GB"
+            android:textSize="14dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:text="Buy it"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Price : "
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/deviceNameValue"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textAlignment="gravity"
+        android:text="@string/iphone14Price"
+        app:layout_constraintStart_toEndOf="@+id/priceText"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

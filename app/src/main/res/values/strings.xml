@@ -1,0 +1,24 @@
+<resources>
+    <!-->Application Name<!-->
+    <string name="app_name">Centennial Store</string>
+
+    <!-->Main Activity Welcome Text<!-->
+    <string name="welcomeText">Welcome to Centennial Store</string>
+
+    <!-->iPhone-14 Activity Header Text<!-->
+    <string name="iphone14">Buy iPhone 14</string>
+
+    <string name="iphone14Name">iPhone 14</string>
+    <string name="iphone14Price">$1399</string>
+
+    <!-->Customer Information Activity Header Text<!-->
+    <string name="customerInformationText">Customer Information</string>
+
+    <!-->Color Spinner<!-->
+    <string-array name="colorSpinner">
+        <item id='blackColor'>Black</item>
+        <item id='purpleColor'>Purple</item>
+        <item id='blueColor'>Blue</item>
+        <item id='goldColor'>Gold</item>
+    </string-array>
+</resources>

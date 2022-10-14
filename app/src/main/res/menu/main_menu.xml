@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/iphone"
+        android:title="iPhone">
+
+        <menu>
+            <item android:id="@+id/iphone14"
+                android:title="iPhone 14"/>
+            <item android:id="@+id/iphone14pro"
+                android:title="iPhone 14 Pro"/>
+            <item android:id="@+id/iphone14proMax"
+                android:title="iPhone 14 Pro Max"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/samsung"
+        android:title="Samsung">
+
+        <menu>
+            <item android:id="@+id/galaxyS22"
+                android:title="Galaxy S22"/>
+            <item android:id="@+id/galaxyS22ultra"
+                android:title="Galaxy S22 Ultra"/>
+            <item android:id="@+id/galaxyZ"
+                android:title="Galaxy Z"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/google"
+        android:title="Google Pixel">
+
+        <menu>
+            <item android:id="@+id/pixel6"
+                android:title="Google Pixel 6"/>
+            <item android:id="@+id/pixel6pro"
+                android:title="Google Pixel 6 Pro"/>
+            <item android:id="@+id/pixel6a"
+                android:title="Google Pixel 6a"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/oppo"
+        android:title="Oppo">
+
+        <menu>
+            <item android:id="@+id/findX5"
+                android:title="Oppo Find X5"/>
+            <item android:id="@+id/findX5pro"
+                android:title="Oppo Find X5 Pro"/>
+            <item android:id="@+id/findX3"
+                android:title="Oppo Find X3"/>
+        </menu>
+    </item>
+</menu>
